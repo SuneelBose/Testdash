@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #sidebar {
+    width: 300px;
+    background-color: #00ff62;
+    border-right: 1px solid #ddd;
+    padding: 10px;
+    overflow-y: auto;
+  }
+  
+  #map {
+    flex: 1;
+    height: 100vh;
+  }
+  
+  .widget {
+    margin-bottom: 15px;
+  }
+  
+  .widget h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  p {
+    font-size: 14px;
+  }
